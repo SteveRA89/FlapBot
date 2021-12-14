@@ -1,0 +1,9 @@
+{
+  "id": "2a40a101-19c2-4d42-836c-8375568af3c6",
+  "name": "RecipientSite",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
