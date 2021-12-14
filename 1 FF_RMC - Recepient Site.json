@@ -1,0 +1,103 @@
+{
+  "id": "292b66bd-779b-4f85-b406-92aca3e9216d",
+  "name": "1 FF/RMC - Recepient Site",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "RS",
+          "lifespan": 2
+        },
+        {
+          "name": "compromised",
+          "lifespan": 2
+        },
+        {
+          "name": "nurse-d1",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Flap/Replant Parameter: Recipient Site:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": " Normal"
+                    },
+                    {
+                      "text": "More swelling under flap"
+                    },
+                    {
+                      "text": "Concern - other "
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "title": "Normal",
+                  "message": "Normal"
+                },
+                {
+                  "title": "More swelling under flap",
+                  "message": "More swelling under flap"
+                },
+                {
+                  "title": "Concern - other",
+                  "message": "Concern - other"
+                }
+              ],
+              "contentType": "300",
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

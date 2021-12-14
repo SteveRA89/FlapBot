@@ -1,0 +1,66 @@
+{
+  "id": "d1128bd7-9a39-443b-bbc7-521a44e4c511",
+  "name": "95 Escalation Process Flap Perfusion",
+  "auto": true,
+  "contexts": [
+    "flapPerfusion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FFRMC.FFRMC-custom.FFRMC-RS-T-custom.FFRMC-Colour-custom.FFRMC-Turgor-custom.FFRMC-Temperature-custom.FFRMC-Decision-custom.FFRMC-Action-custom",
+      "affectedContexts": [
+        {
+          "name": "95EscalationProcessFlapPerfusion-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Has flap perfusion further deteriorated whilst waiting for plastic surgery registrar to arrive?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

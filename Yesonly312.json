@@ -1,0 +1,62 @@
+{
+  "id": "b8425331-10a2-4b9a-ab4a-c115c2332df6",
+  "name": "Yesonly312",
+  "auto": true,
+  "contexts": [
+    "yesonly31"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yesonly3",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call on-call Plastic Surgery Consultant"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Next",
+                  "title": "Next"
+                }
+              ],
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

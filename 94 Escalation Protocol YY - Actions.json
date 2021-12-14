@@ -1,0 +1,136 @@
+{
+  "id": "42abc1ea-adcb-4356-9d7a-0fce932eb8ae",
+  "name": "94 Escalation Protocol YY - Actions",
+  "auto": true,
+  "contexts": [
+    "72-3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EscalationProtocol-callnotoncall.EscalationProtocol-callnotoncall-custom.EscalationProtocol-next-custom",
+      "affectedContexts": [
+        {
+          "name": "other",
+          "lifespan": 2
+        },
+        {
+          "name": "72-3",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Actions:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Flap handover"
+                    },
+                    {
+                      "text": "Concerned \u0026 Registrar Called"
+                    },
+                    {
+                      "text": "Registrar Decision for Theatre "
+                    },
+                    {
+                      "text": "Concerned \u0026 Consultant Called "
+                    },
+                    {
+                      "text": "Consultant decision for theatre"
+                    },
+                    {
+                      "text": "Leeching in Progress "
+                    },
+                    {
+                      "text": "Bedside Intervention"
+                    },
+                    {
+                      "text": "Other"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Flap Handover",
+                  "title": "Flap Handover"
+                },
+                {
+                  "title": "Concerned \u0026 registrar called",
+                  "message": "Concerned \u0026 registrar called"
+                },
+                {
+                  "title": "Registrar decision for theatre",
+                  "message": "Registrar decision for theatre"
+                },
+                {
+                  "title": "Concerned \u0026 consultant called",
+                  "message": "Concerned \u0026 consultant called"
+                },
+                {
+                  "message": "Consultant decision for theatre",
+                  "title": "Consultant decision for theatre"
+                },
+                {
+                  "message": "Leeching in progress",
+                  "title": "Leeching in progress"
+                },
+                {
+                  "title": "Bedside intervention",
+                  "message": "Bedside intervention"
+                },
+                {
+                  "message": "Other",
+                  "title": "Other"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

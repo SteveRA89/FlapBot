@@ -1,0 +1,67 @@
+[
+  {
+    "id": "9c4d34d7-acbb-4e1d-9577-01c13a8cd203",
+    "data": [
+      {
+        "text": "Partial Failure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25f1c58d-f6b6-40f8-b823-89ebe2e148f3",
+    "data": [
+      {
+        "text": "Zonal FAilure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88825e7d-59d3-4434-b897-0c4c6c333841",
+    "data": [
+      {
+        "text": "Zonal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "024360f8-3b3e-4323-b5c1-d9203eed7014",
+    "data": [
+      {
+        "text": "Partial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13e97e91-546d-4692-851f-d57b014c5c2f",
+    "data": [
+      {
+        "text": "Partial/Zonal failure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

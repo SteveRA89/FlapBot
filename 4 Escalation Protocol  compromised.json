@@ -1,0 +1,101 @@
+{
+  "id": "f36337f8-97b1-45a4-89da-f72293c88675",
+  "name": "4 Escalation Protocol  compromised",
+  "auto": true,
+  "contexts": [
+    "nurse-d1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "EscalationProtocol-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "EP1",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Compromised flap/replant blood supply?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes, it is compromised."
+                    },
+                    {
+                      "text": "No"
+                    },
+                    {
+                      "text": "I think so"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "payload": [
+                {
+                  "message": "Yes, it is compromised",
+                  "title": "Yes"
+                },
+                {
+                  "title": "No",
+                  "message": "No"
+                },
+                {
+                  "title": "I think so",
+                  "message": "I think so"
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

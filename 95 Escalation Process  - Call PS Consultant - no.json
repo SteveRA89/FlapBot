@@ -1,0 +1,92 @@
+{
+  "id": "571f5435-fb1d-4c8b-a2a1-b2f5fb81db8b",
+  "parentId": "d5fcd3f3-56a8-407b-a024-7df98e128bcd",
+  "rootParentId": "d1128bd7-9a39-443b-bbc7-521a44e4c511",
+  "name": "95 Escalation Process  - Call PS Consultant - no",
+  "auto": true,
+  "contexts": [
+    "95EscalationProcess-CallPSConsultant-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "95EscalationProcessFlapPerfusion.95EscalationProcessFlapPerfusion-custom.95EscalationProcess-No-ContinueMonitor-custom.95EscalationProcess-CallPSConsultant-no",
+      "affectedContexts": [
+        {
+          "name": "95EscalationProcess-CallPSConsultant-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call on-call Plastic Surgery Consultant"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Re-asses flap/replant"
+                    },
+                    {
+                      "text": "End"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Re-assess flap/replant",
+                  "title": "Re-assess flap/replant"
+                },
+                {
+                  "message": "End",
+                  "title": "End"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

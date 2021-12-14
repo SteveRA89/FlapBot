@@ -1,0 +1,80 @@
+[
+  {
+    "id": "b3d5e682-9f49-48a6-aaad-8dd4ad1a497a",
+    "data": [
+      {
+        "text": "end",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ac81c1f-d710-4f3b-8337-ddd78f677c48",
+    "data": [
+      {
+        "text": "No Actions Needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53ef8ed9-38f8-4f18-b33a-816b573c4ab0",
+    "data": [
+      {
+        "text": "end conversation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76cc5747-8314-4d8d-9399-9465b9af0e86",
+    "data": [
+      {
+        "text": "no other actions needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16babae8-42fd-48f3-a434-f445f8f0322f",
+    "data": [
+      {
+        "text": "End convo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebe9e2c7-9415-45de-a52f-b42f00ace838",
+    "data": [
+      {
+        "text": "No, Thanks!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

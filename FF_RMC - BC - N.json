@@ -1,0 +1,77 @@
+{
+  "id": "d1910649-d247-44d9-99d2-88567be34bd5",
+  "parentId": "d15adece-0963-4321-ad4a-eda7d9d678eb",
+  "rootParentId": "d15adece-0963-4321-ad4a-eda7d9d678eb",
+  "name": "FF/RMC - BC - N",
+  "auto": true,
+  "contexts": [
+    "FFRMC-W-No-followup",
+    "bc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FFRMC-Decision.FFRMC-Decision-no.FFRMC-W-No-no",
+      "affectedContexts": [
+        {
+          "name": "FFRMC-BC-N-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "bc",
+          "lifespan": 1
+        },
+        {
+          "name": "compromised",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Acceptable Perfusion?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

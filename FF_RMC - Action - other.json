@@ -1,0 +1,95 @@
+{
+  "id": "2d100b0c-1133-4560-a113-8f358e7638f3",
+  "name": "FF/RMC - Action - other",
+  "auto": true,
+  "contexts": [
+    "other"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FFRMC.FFRMC-custom.FFRMC-RS-T-custom.FFRMC-Colour-custom.FFRMC-Turgor-custom.FFRMC-Temperature-custom.FFRMC-Decision-custom.FFRMC-Action-custom",
+      "affectedContexts": [
+        {
+          "name": "FFRMC-Action-other-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "other",
+          "lifespan": 2
+        },
+        {
+          "name": "flapPerfusion",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Zonal/Partial Failure"
+                    },
+                    {
+                      "text": "Total Flap Failure or Unsalvageable flap"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Zonal/Partial Failure",
+                  "title": "Zonal/Partial Failure"
+                },
+                {
+                  "title": "Total Flap Failure or Unsalvageable flap",
+                  "message": "Total Flap Failure or Unsalvageable flap"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

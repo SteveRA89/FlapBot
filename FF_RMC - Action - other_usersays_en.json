@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ae304aaf-cf03-4059-9967-c99d82289214",
+    "data": [
+      {
+        "text": "Other",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ae417f86-1e60-4ef4-8d59-11aa98c1dace",
+    "data": [
+      {
+        "text": "Other (Write in Med Notes)",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  }
+]

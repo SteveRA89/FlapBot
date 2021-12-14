@@ -1,0 +1,102 @@
+{
+  "id": "98fd143f-40d6-467d-8510-58f549e3463e",
+  "name": "6 Escalation Protocol - registrar arrived",
+  "auto": true,
+  "contexts": [
+    "registrar-arrived"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "call1",
+          "lifespan": 2
+        },
+        {
+          "name": "EP1",
+          "lifespan": 1
+        },
+        {
+          "name": "72hrs",
+          "lifespan": 1
+        },
+        {
+          "name": "yesonly",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Plastic Surgery Registrar arrived within 30mins?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": " Yes "
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Yes"
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1aa1add3-2979-4429-8413-5eb50078e4dc",
+  "parentId": "77795901-57b9-4437-9cf7-59e2aa3cd5c9",
+  "rootParentId": "77795901-57b9-4437-9cf7-59e2aa3cd5c9",
+  "name": "6 Escalation Protocol - No - yes",
+  "auto": true,
+  "contexts": [
+    "6EscalationProtocol-No-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "6EscalationProtocol-NurseActions-Toreview.6EscalationProtocol-NurseActions-Toreview-custom.6EscalationProtocol-No-yes",
+      "affectedContexts": [
+        {
+          "name": "document",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call Plastic Surgery Consultant who did the flap/replant (even if not officially on-call)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": " Next "
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Next",
+                  "title": "Next"
+                }
+              ],
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

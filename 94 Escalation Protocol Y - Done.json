@@ -1,0 +1,78 @@
+{
+  "id": "790cbf45-0894-4770-b4cd-59ff9d8c99b0",
+  "parentId": "bc274969-9d65-48d3-bb9f-be2e223197bc",
+  "rootParentId": "bc274969-9d65-48d3-bb9f-be2e223197bc",
+  "name": "94 Escalation Protocol Y - Done",
+  "auto": true,
+  "contexts": [
+    "yesonly5",
+    "94EscalationProtocolY-Actions-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "94EscalationProtocolY-Actions.94EscalationProtocolY-Actions-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Re-assess flap/replant"
+                    },
+                    {
+                      "text": "End"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "payload": [
+                {
+                  "title": "Re-assess flap/replant",
+                  "message": "Re-assess flap/replant"
+                },
+                {
+                  "title": "End",
+                  "message": "End"
+                }
+              ],
+              "contentType": "300",
+              "templateId": "6"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

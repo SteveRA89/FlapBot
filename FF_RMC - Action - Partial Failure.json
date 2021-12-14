@@ -1,0 +1,99 @@
+{
+  "id": "f7d8d749-cac4-4ac7-8feb-39d1f69a85b6",
+  "parentId": "2d100b0c-1133-4560-a113-8f358e7638f3",
+  "rootParentId": "2d100b0c-1133-4560-a113-8f358e7638f3",
+  "name": "FF/RMC - Action - Partial Failure",
+  "auto": true,
+  "contexts": [
+    "FFRMC-Action-other-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FFRMC.FFRMC-custom.FFRMC-RS-T-custom.FFRMC-Colour-custom.FFRMC-Turgor-custom.FFRMC-Temperature-custom.FFRMC-Decision-custom.FFRMC-Action-custom.FFRMC-Action-other-custom",
+      "affectedContexts": [
+        {
+          "name": "partial-failure",
+          "lifespan": 1
+        },
+        {
+          "name": "call1",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Document in medical notes, explain to patient and monitor only the remaining portion of the flap/replant that is hoped will survived."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Patient should be counselled by the Consultant in these circumstances and this should be documented."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Proceed"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Proceed",
+                  "title": "Proceed"
+                }
+              ],
+              "templateId": "6"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "b1246d21-c58b-4bee-9f64-90ab6318ef02",
+  "parentId": "e70233a8-8875-4cf0-926a-4b03c8bfa72f",
+  "rootParentId": "e264ca2d-275e-45c8-8e4c-37d88d8fbffe",
+  "name": "FF/RMC - Worsening",
+  "auto": true,
+  "contexts": [
+    "FFRMC-AP-N-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FFRMC-Decision.FFRMC-Decision-no.FFRMC-W-No-no.FFRMC-BC-N-no.FFRMC-AP-N-no",
+      "affectedContexts": [
+        {
+          "name": "nurse-d1",
+          "lifespan": 2
+        },
+        {
+          "name": "compromised",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Worsening / Definite Arterial Problem"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

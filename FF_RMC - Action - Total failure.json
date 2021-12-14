@@ -1,0 +1,95 @@
+{
+  "id": "9da768fc-d7a9-4080-a5d9-1a3848baee5b",
+  "parentId": "2d100b0c-1133-4560-a113-8f358e7638f3",
+  "rootParentId": "2d100b0c-1133-4560-a113-8f358e7638f3",
+  "name": "FF/RMC - Action - Total failure",
+  "auto": true,
+  "contexts": [
+    "FFRMC-Action-other-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FFRMC.FFRMC-custom.FFRMC-RS-T-custom.FFRMC-Colour-custom.FFRMC-Turgor-custom.FFRMC-Temperature-custom.FFRMC-Decision-custom.FFRMC-Action-custom.FFRMC-Action-other-custom",
+      "affectedContexts": [
+        {
+          "name": "flapPerfusion",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Document in medical notes, explain to patient and stop monitoring. Do not monitor failed or unsalvageable flaps/replants, or parts thereof, if no attempt  will be made to salvage, unless the Consultant instructs otherwise."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Patient should be counselled by the Consultant in these circumstances and this should be documented."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Proceed"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "message": "Proceed",
+                  "title": "Proceed"
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

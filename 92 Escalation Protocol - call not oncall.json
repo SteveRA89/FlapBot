@@ -1,0 +1,83 @@
+{
+  "id": "d42a7c16-b370-4f1f-8ba0-192c8e68b249",
+  "name": "92 Escalation Protocol - call not oncall",
+  "auto": true,
+  "contexts": [
+    "callnotoncall"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EscalationProtocol-nd2-no.EscalationProtocol-nd2-no-yes",
+      "affectedContexts": [
+        {
+          "name": "document",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call plastic surgery consultant who did the flap/replant (even if not officially on-call)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Next"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Next",
+                  "title": "Next"
+                }
+              ],
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": "988e4f1b-145f-4724-970f-5cc19b8b4317",
+  "name": "92 Escalation Protocol Y- call not oncall",
+  "auto": true,
+  "contexts": [
+    "yesonly2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EscalationProtocol-nd2-no.EscalationProtocol-nd2-no-yes",
+      "affectedContexts": [
+        {
+          "name": "yesonly31",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Has the flap/replant been performed 72 hrs ago?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Yes",
+                  "title": "Yes"
+                },
+                {
+                  "title": "No",
+                  "message": "No"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

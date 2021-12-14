@@ -1,0 +1,83 @@
+{
+  "id": "ecdb8dba-7538-44bc-a4b2-08b3167ce4c2",
+  "name": "7 Escalation Protocol Y - Call Registrar Y",
+  "auto": true,
+  "contexts": [
+    "yesonly"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EscalationProtocol.EscalationProtocol-custom.EscalationProtocol-NurseAction-custom.EscalationProtocol-Decision-custom.EscalationProtocol-NurseActions-custom",
+      "affectedContexts": [
+        {
+          "name": "yesonly2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Registrar Actions: \n1) Assess patient and flap document finding on chart and medical notes\n2) Call Consultant(s) Having fomulated a decision of theatre versus no theatre"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Next"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Next",
+                  "title": "Next"
+                }
+              ],
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

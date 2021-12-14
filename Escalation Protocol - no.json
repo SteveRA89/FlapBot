@@ -1,0 +1,92 @@
+{
+  "id": "04367747-46e1-4dec-8c52-9f601fe0597b",
+  "parentId": "f36337f8-97b1-45a4-89da-f72293c88675",
+  "rootParentId": "f36337f8-97b1-45a4-89da-f72293c88675",
+  "name": "Escalation Protocol - no",
+  "auto": true,
+  "contexts": [
+    "EscalationProtocol-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EscalationProtocol.EscalationProtocol-no",
+      "affectedContexts": [
+        {
+          "name": "EscalationProtocol-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Perform flap/replant monitoring and document in chart as per monitoring frequency"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Re-assess flap/replant"
+                    },
+                    {
+                      "text": "End"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Re-assess flap/replant",
+                  "title": "Re-assess flap/replant"
+                },
+                {
+                  "title": "End",
+                  "message": "End"
+                }
+              ],
+              "templateId": "6"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

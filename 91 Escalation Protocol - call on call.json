@@ -1,0 +1,83 @@
+{
+  "id": "7cc8484c-ce65-43e4-a26f-4c3d29f49539",
+  "name": "91 Escalation Protocol - call on call",
+  "auto": true,
+  "contexts": [
+    "72-N"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "91EscalationProtocol-72hrs.91EscalationProtocol-72hrs-custom",
+      "affectedContexts": [
+        {
+          "name": "72-2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call on-call Plastic Surgery Consultant"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": " Next "
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Next",
+                  "title": "Next"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

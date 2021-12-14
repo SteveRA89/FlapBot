@@ -1,0 +1,85 @@
+{
+  "id": "3bf8c0d1-54d4-4e79-8c56-7193e7f06c2b",
+  "parentId": "77795901-57b9-4437-9cf7-59e2aa3cd5c9",
+  "rootParentId": "77795901-57b9-4437-9cf7-59e2aa3cd5c9",
+  "name": "6 Escalation Protocol - No - no",
+  "auto": true,
+  "contexts": [
+    "6EscalationProtocol-No-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "6EscalationProtocol-NurseActions-Toreview.6EscalationProtocol-NurseActions-Toreview-custom.6EscalationProtocol-No-no",
+      "affectedContexts": [
+        {
+          "name": "document",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call on-call Plastic Surgery Consultant"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": " Next "
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "message": "Next",
+                  "title": "Next"
+                }
+              ],
+              "contentType": "300",
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

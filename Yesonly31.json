@@ -1,0 +1,62 @@
+{
+  "id": "219c3e10-992a-440f-97bb-a85c1a7a9561",
+  "name": "Yesonly31",
+  "auto": true,
+  "contexts": [
+    "yesonly31"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yesonly3",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call plastic surgery consultant who did the flap/replant (even if not officially on-call)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "Next",
+                  "message": "Next"
+                }
+              ],
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

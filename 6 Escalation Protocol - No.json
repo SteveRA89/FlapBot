@@ -1,0 +1,92 @@
+{
+  "id": "77795901-57b9-4437-9cf7-59e2aa3cd5c9",
+  "name": "6 Escalation Protocol - No",
+  "auto": true,
+  "contexts": [
+    "EP1",
+    "call1",
+    "NA1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "6EscalationProtocol-NurseActions-Toreview.6EscalationProtocol-NurseActions-Toreview-custom",
+      "affectedContexts": [
+        {
+          "name": "6EscalationProtocol-No-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Has the flap/replant been performed \u003c72 hrs ago?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": " Yes "
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Yes."
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ],
+              "templateId": "6"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

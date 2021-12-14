@@ -1,0 +1,90 @@
+{
+  "id": "efd63786-5480-42e5-9bd5-7351d3028be8",
+  "name": "95 Escalation Process Flap Perfusion YY",
+  "auto": true,
+  "contexts": [
+    "72-3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FFRMC.FFRMC-custom.FFRMC-RS-T-custom.FFRMC-Colour-custom.FFRMC-Turgor-custom.FFRMC-Temperature-custom.FFRMC-Decision-custom.FFRMC-Action-custom",
+      "affectedContexts": [
+        {
+          "name": "72-4",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What do you want to do next?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Re-assess plant/replant"
+                    },
+                    {
+                      "text": "End"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "title": "Re-assess flap/replant",
+                  "message": "Re-assess flap/replant"
+                },
+                {
+                  "message": "End",
+                  "title": "End"
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

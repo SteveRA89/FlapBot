@@ -1,0 +1,104 @@
+{
+  "id": "6a2dfd26-859e-4438-920d-a4ee202af388",
+  "name": "6 Escalation Protocol - Nurse Actions - To review",
+  "auto": true,
+  "contexts": [
+    "EP1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EscalationProtocol.EscalationProtocol-custom.EscalationProtocol-NurseAction-custom.EscalationProtocol-Decision-custom",
+      "affectedContexts": [
+        {
+          "name": "EP1",
+          "lifespan": 2
+        },
+        {
+          "name": "registrar-arrived",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Call plastic surgery registrar to review patient and continue to monitor flap/replant at 15 min intervals."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Has flap perfusion further deteriorated whilst waiting for Plastic Surgery Registrar to arrive?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Yes"
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

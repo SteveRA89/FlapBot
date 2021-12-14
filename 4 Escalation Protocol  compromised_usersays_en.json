@@ -1,0 +1,188 @@
+[
+  {
+    "id": "99986abf-c5cc-4418-bce9-e9e656680eaa",
+    "data": [
+      {
+        "text": "No, proceed to the next step",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b12d421-efad-467d-9a7f-a46bbcd55359",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2bc8583a-7073-42d0-be94-12a4f141614f",
+    "data": [
+      {
+        "text": "Weak/Faint",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c394956-6928-4058-9ddc-7934c03ca98a",
+    "data": [
+      {
+        "text": "Absent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "48270230-8248-4ac8-9ffa-a9f843d3e6cc",
+    "data": [
+      {
+        "text": "Too warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c39958a-34aa-4c32-a268-ff9ede12a9c9",
+    "data": [
+      {
+        "text": "Too cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "400bdf48-094c-4bdd-bf20-be9645bc1ca6",
+    "data": [
+      {
+        "text": "Too swollen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36274e4d-ca62-499e-a44e-79e6600c9131",
+    "data": [
+      {
+        "text": "Too empty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56fad14a-fc6c-4d41-af10-b4dc7a4fe9bf",
+    "data": [
+      {
+        "text": "Too dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7340821-60a2-4b4c-b5ec-5144162151bb",
+    "data": [
+      {
+        "text": "Too ",
+        "userDefined": false
+      },
+      {
+        "text": "pale",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff158389-86a1-4146-b6e9-c8a668de71f6",
+    "data": [
+      {
+        "text": "Too brisk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8a9d778-e5ba-4aac-9003-5d1e5ace4eea",
+    "data": [
+      {
+        "text": "Too slow",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac604ef2-957e-4802-ba4e-55c6116adf2b",
+    "data": [
+      {
+        "text": "concern - other",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02e0b3bf-0ae0-4d4b-8f43-dec6b81f8014",
+    "data": [
+      {
+        "text": "More swelling under flap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
